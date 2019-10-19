@@ -1,0 +1,14 @@
+ <table>
+    ${data.map(person => 
+         `
+         <tr>
+         <td>${person.first_name}</td>
+         <td>${person.last_name}</td>
+         <td>${person.email}</td>
+         <td>${person.gender}</td>
+         <td>${person.job}</td>
+        </tr>`
+        ).join('')}
+</table>  
+
+
